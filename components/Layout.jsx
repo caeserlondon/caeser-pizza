@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Footer from './Footer'
 import Navbar from './Navbar'
 
-const Layout = ({ Children }) => {
+const Layout = ({ children }) => {
 	return (
 		<>
 			<Head>
@@ -13,7 +13,7 @@ const Layout = ({ Children }) => {
 
 			<div>
 				<Navbar />
-				{Children}
+				{children}
 				<Footer />
 			</div>
 		</>
