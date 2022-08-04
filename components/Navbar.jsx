@@ -7,7 +7,7 @@ const Navbar = () => {
 		<div className={styles.container}>
 			<div className={styles.item}>
 				<div className={styles.callButton}>
-					<Image src='/img/telephone.png' alt='' width='32' height='32' />
+					<Image src='/images/telephone.png' alt='' width='32' height='32' />
 				</div>
 				<div className={styles.texts}>
 					<div className={styles.text}>ORDER NOW!</div>
@@ -21,7 +21,7 @@ const Navbar = () => {
 					</Link>
 					<li className={styles.listItem}>Products</li>
 					<li className={styles.listItem}>Menu</li>
-					<Image src='/img/logo.png' alt='' width='160px' height='69px' />
+					<Image src='/images/logo.png' alt='' width='160px' height='69px' />
 					<li className={styles.listItem}>Events</li>
 					<li className={styles.listItem}>Blog</li>
 					<li className={styles.listItem}>Contact</li>
@@ -30,7 +30,7 @@ const Navbar = () => {
 			<Link href='/cart' passHref>
 				<div className={styles.item}>
 					<div className={styles.cart}>
-						<Image src='/img/cart.png' alt='' width='30px' height='30px' />
+						<Image src='/images/cart.png' alt='' width='30px' height='30px' />
 					</div>
 				</div>
 			</Link>
